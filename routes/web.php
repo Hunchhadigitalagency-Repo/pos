@@ -24,4 +24,14 @@ Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::group(['prefix' => 'dashboard',/* 'middleware' => 'auth',*/ 'as' => 'dashboard.'], function () {
 
     Route::get('/home', [DashboardController::class, 'index'])->name('index');
+    Route::get('/pos', [DashboardController::class, 'pos'])->name('pos');
+    Route::get('/sales', [DashboardController::class, 'sales'])->name('sales');
+    Route::get('/customer', [DashboardController::class, 'customer'])->name('customer');
+    Route::get('/category', [DashboardController::class, 'category'])->name('category');
+    Route::get('/product', [DashboardController::class, 'product'])->name('product');
+    Route::get('/report', [DashboardController::class, 'report'])->name('report');
+    Route::get('/setting', [DashboardController::class, 'setting'])->name('setting');
+
+
+
 });
