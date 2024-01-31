@@ -1,5 +1,6 @@
 <?php
 
+use App\Admin\Controllers\AuthController;
 use App\Http\Controllers\Dashboard\DashboardController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,20 +16,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',function(){
-    return 'hello';
+    return redirect('/login');
 });
 
-Route::prefix('dashboard')->middleware('auth')->group(function () {
-    // Dashboard home page
-    Route::get('/', [DashboardController::class, 'index'])->name('dashboard.index');
+Route::get('/login', [AuthController::class, 'login'])->name('login');
 
-    // Other dashboard routes
-    // ...
+Route::group(['prefix' => 'dashboard',/* 'middleware' => 'auth',*/ 'as' => 'dashboard.'], function () {
 
-    // Example of nested routes
-    Route::prefix('settings')->group(function () {
-        Route::get('/', [DashboardController::class, 'settings'])->name('dashboard.settings');
-        // Other settings routes
-        // ...
-    });
+    Route::get('/home', [DashboardController::class, 'index'])->name('index');
 });
