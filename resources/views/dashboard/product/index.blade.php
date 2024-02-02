@@ -54,13 +54,13 @@
                             Product name
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            Color
+                            Stocks
                         </th>
                         <th scope="col" class="px-6 py-3">
                             Category
                         </th>
                         <th scope="col" class="px-6 py-3">
-                            Price
+                            Sales Price
                         </th>
                         <th scope="col" class="px-6 py-3">
                             Action
@@ -75,8 +75,11 @@
                                 <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
                             </div>
                         </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Apple MacBook Pro 17"
+                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
+                            <div class="ps-3">
+                                <div class="text-base font-semibold">Bonnie Green</div>
+                            </div>
                         </th>
                         <td class="px-6 py-4">
                             Silver
@@ -98,8 +101,11 @@
                                 <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
                             </div>
                         </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Microsoft Surface Pro
+                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
+                            <div class="ps-3">
+                                <div class="text-base font-semibold">Bonnie Green</div>
+                            </div>
                         </th>
                         <td class="px-6 py-4">
                             White
@@ -121,8 +127,11 @@
                                 <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
                             </div>
                         </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Magic Mouse 2
+                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
+                            <div class="ps-3">
+                                <div class="text-base font-semibold">Bonnie Green</div>
+                            </div>
                         </th>
                         <td class="px-6 py-4">
                             Black
@@ -144,8 +153,11 @@
                                 <label for="checkbox-table-3" class="sr-only">checkbox</label>
                             </div>
                         </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Apple Watch
+                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
+                            <div class="ps-3">
+                                <div class="text-base font-semibold">Bonnie Green</div>
+                            </div>
                         </th>
                         <td class="px-6 py-4">
                             Silver
@@ -167,8 +179,11 @@
                                 <label for="checkbox-table-3" class="sr-only">checkbox</label>
                             </div>
                         </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            iPad
+                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
+                            <div class="ps-3">
+                                <div class="text-base font-semibold">Bonnie Green</div>
+                            </div>
                         </th>
                         <td class="px-6 py-4">
                             Gold
@@ -190,8 +205,11 @@
                                 <label for="checkbox-table-3" class="sr-only">checkbox</label>
                             </div>
                         </td>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Apple iMac 27"
+                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
+                            <div class="ps-3">
+                                <div class="text-base font-semibold">Bonnie Green</div>
+                            </div>
                         </th>
                         <td class="px-6 py-4">
                             Silver
