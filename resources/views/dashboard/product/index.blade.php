@@ -256,4 +256,4 @@
         </nav>
     </div>
 </div>
-@endcontent
+@endsection
