@@ -5,4 +5,4 @@
         <h1>Pos</h1>
     </div>
 </div>
-@endcontent
+@endsection
