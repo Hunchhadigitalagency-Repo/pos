@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="{{asset('dashboard/js/tailwind.js')}}"></script>
     <script src="{{asset('dashboard/js/app.js')}}"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('dashboard/css/global.css')}}">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
@@ -122,7 +124,7 @@
                         <span class="flex-1 ms-3 whitespace-nowrap">Products</span>
                     </a>
                 </li>
-                
+
                 <li>
                     <a href="/dashboard/report" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <svg width="25px" height="25px" viewBox="-4.16 -4.16 40.32 40.32" id="OBJECT" xmlns="http://www.w3.org/2000/svg" fill="#6b7280" transform="rotate(-45)" stroke="#6b7280" stroke-width="0.192">

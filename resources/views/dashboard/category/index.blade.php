@@ -3,7 +3,7 @@
 <div class="p-4 sm:ml-64">
     <div class="rounded-lg dark:border-gray-700 mt-14 flex justify-between content-start item-center">
         <h1 class="flex items-center font-bold text-[20px]">Categories</h1>
-        <a href="" class="bg-gray-600 text-white  px-3 py-2 text-sm rounded-md hover:bg-gray-700">Add Category +</a>
+        <a href="/dashboard/category/create" class="bg-gray-600 text-white  px-3 py-2 text-sm rounded-md hover:bg-gray-700">Add Category +</a>
     </div>
     <div class="table mt-8 w-full">
         <div class="relative overflow-x-auto  sm:rounded-lg">
@@ -54,6 +54,9 @@
                             Category Name
                         </th>
                         <th scope="col" class="px-6 py-3">
+                            Category Wise Product Count
+                        </th>
+                        <th scope="col" class="px-6 py-3">
                             Action
                         </th>
                     </tr>
@@ -73,6 +76,9 @@
                             </div>
                         </th>
                         <td class="px-6 py-4">
+                            12
+                        </td>
+                        <td class="px-6 py-4">
                             <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                             <a href="#" class="font-medium text-red-600 dark:text-blue-500 hover:underline ms-2">Delete</a>
                         </td>
@@ -91,23 +97,8 @@
                             </div>
                         </th>
                         <td class="px-6 py-4">
-                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                            <a href="#" class="font-medium text-red-600 dark:text-blue-500 hover:underline ms-2">Delete</a>
+                            12
                         </td>
-                    </tr>
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                        <td class="w-4 p-4">
-                            <div class="flex items-center">
-                                <input id="checkbox-table-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="checkbox-table-3" class="sr-only">checkbox</label>
-                            </div>
-                        </td>
-                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
-                            <div class="ps-3">
-                                <div class="text-base font-semibold">Bonnie Green</div>
-                            </div>
-                        </th>
                         <td class="px-6 py-4">
                             <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                             <a href="#" class="font-medium text-red-600 dark:text-blue-500 hover:underline ms-2">Delete</a>
@@ -126,6 +117,30 @@
                                 <div class="text-base font-semibold">Bonnie Green</div>
                             </div>
                         </th>
+                        <td class="px-6 py-4">
+                            12
+                        </td>
+                        <td class="px-6 py-4">
+                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                            <a href="#" class="font-medium text-red-600 dark:text-blue-500 hover:underline ms-2">Delete</a>
+                        </td>
+                    </tr>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                        <td class="w-4 p-4">
+                            <div class="flex items-center">
+                                <input id="checkbox-table-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                <label for="checkbox-table-3" class="sr-only">checkbox</label>
+                            </div>
+                        </td>
+                        <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <img class="w-10 h-10 rounded-full" src="https://source.unsplash.com/random" alt="Jese image">
+                            <div class="ps-3">
+                                <div class="text-base font-semibold">Bonnie Green</div>
+                            </div>
+                        </th>
+                        <td class="px-6 py-4">
+                            12
+                        </td>
                         <td class="px-6 py-4">
                             <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                             <a href="#" class="font-medium text-red-600 dark:text-blue-500 hover:underline ms-2">Delete</a>
@@ -144,6 +159,9 @@
                                 <div class="text-base font-semibold">Bonnie Green</div>
                             </div>
                         </th>
+                        <td class="px-6 py-4">
+                            12
+                        </td>
                         <td class="px-6 py-4">
                             <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                             <a href="#" class="font-medium text-red-600 dark:text-blue-500 hover:underline ms-2">Delete</a>
