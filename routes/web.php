@@ -22,7 +22,9 @@ Route::get('/',function(){
 
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 
-Route::group(['prefix' => 'dashboard',/* 'middleware' => 'auth',*/ 'as' => 'dashboard.'], function () {
+Auth::routes();
+
+Route::group(['prefix' => 'dashboard','middleware' => 'auth', 'as' => 'dashboard.'], function () {
 
     Route::get('/home', [DashboardController::class, 'index'])->name('index');
     Route::get('/pos', [DashboardController::class, 'pos'])->name('pos');

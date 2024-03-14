@@ -4,9 +4,6 @@
     <div class="rounded-lg dark:border-gray-700 mt-14 flex justify-between content-start item-center">
         <h1 class="flex items-center font-bold text-[20px]">Dashboard</h1>
     </div>
-
-
-
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         <div class="bg-gray-100">
             <p class="p-3 pl-5 text-xl">Store Sales</p>
@@ -15,10 +12,7 @@
         <div>
             <!-- <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt=""> -->
         </div>
-       
     </div>
-
-
 </div>
 
 <script type="text/javascript">
